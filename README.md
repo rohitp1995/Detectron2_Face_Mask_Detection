@@ -9,7 +9,7 @@ The important, but often overlooked feature of the Detectron2 is its licensing s
 * objective of this project is to predict if people are wearing mask or not. We have used detectron 2 object detection model ```COCO-Detection/faster_rcnn_R_50_FPN_3x.yaml``` to train images and the output is preety accurate
 * We trained the model for 1000 steps to gain near to better accuracy for the unseen data(images)
 * All the configuration based on the requirements are set in the config file of the model
-*
+
 
 ## Result of test data
 
@@ -23,7 +23,7 @@ The important, but often overlooked feature of the Detectron2 is its licensing s
 * CudaToolkit and CUDNN drivers are needed to be compatible with your pytorch version (please visit pytorch website to check for compatibility list)
 
 * clone this repository in your local machine 
-* Download the files from the given google drive link and paste it in your cloned folder
+* Download the files from the given google drive link and paste it in your cloned folder https://drive.google.com/drive/folders/1zkaO6-dH5dwKGLEIC4FLlo0U0yCrYfL8?usp=sharing
 * ```pip install -r requirements.txt``` to install all dependent libraries ( Please check your pytorch version as it might cause the issue)
 * run training.py to start training the data based on the dataset provided in google drive
 * run prediction.py (for now please provided the test image path in the prediction class object to get a prediction file in your folder)
